@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '^4$!$ebh4)2^drlq$g60ykpnq^h!muw)0kizdi6b*&9#u-g^_a'
+SECRET_KEY = '3wyh!iokxg9$s^vw*c4nk@iqbp_j6onk&++c3l*u+-%v%d#=+m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [admin2.pythonanywhere.com, '127.0.0.1']
+ALLOWED_HOSTS = ['admin2.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
@@ -104,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'zh-Hans'
 
 TIME_ZONE = 'Asia/Shanghai'
 
